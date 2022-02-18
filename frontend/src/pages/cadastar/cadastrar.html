@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastrar</title>
+
+    <link rel="stylesheet" href="../../styles/index.css">
+    <link rel="stylesheet" href="./cadastrar.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+    <header class='cabecalho'>
+        <img src="../../images/dog-in-front-of-a-man.png" alt="Cachorro em Frente ao homem" srcset="">
+
+        <h1>Meu Pet Campina Grande</h1>
+
+
+    </header>
+    <nav class='navegar'>
+        <ul>
+            <li><a href="../../index.html"> Inicio </a></li>
+            <li><a href="../procurar/procurar.html">Procurar</a></li>
+            <li>Cadastrar</li>
+        </ul>
+    </nav>
+    <main class='principal'>
+        <h2>Formulário de cadastro</h2>
+
+        <form class="form">
+            <span> Nome: </span><input id="nome" type="text" name="nome" placeholder="Digite o nome Do animal">
+            <span> Data de Nascimento </span><input id="anoNascimento" type="text" placeholder="Ano de nascimento">
+            <span> Dia do Desaparecimento </span><input id="diaDesparecido" type="text" name="diaDesparecido" placeholder="Dia do Desaparecimento">
+            <span> Inserir imagem </span><input id="imagem" type="file" imageJS name="imagem" placeholder="Imagem do Animal">
+            
+            
+            
+            <div class="botoes">
+                <button class="cadastrar" type="submit" submeter><span>Cadastrar</span></button>
+    
+                <button class="cancelar" type="reset">Cancelar</button>
+            </div>
+        </form>
+
+    </main>
+
+
+    <footer class='rodape'>
+        <span>Desenvolvidor por Davidson
+            <i class="fas fa-heart"></i>
+    </footer>
+
+</body>
+
+</html>
+
+<script src="./cadastrar.js"></script>
